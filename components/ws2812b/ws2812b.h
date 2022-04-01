@@ -1,0 +1,7 @@
+#ifndef __WS2812B_H
+#define __WS2812B_H
+void ws2812_init(int pin, int number_led);
+void ws2812_set_rgb(int index, uint8_t r, uint8_t g, uint8_t b);
+void ws2812_turnOff();
+void ws2812_set_all_rgb(uint8_t r, uint8_t g, uint8_t b);
+#endif
